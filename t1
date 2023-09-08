@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main(){
+
+    cout<<"************************"<<endl;
+    cout<<"     EXAMLPE  1.1       "<<endl;
+    cout<<"************************"<<endl;
+
+    float length;
+    cout<<"enter length"<<endl;
+    cin>>length;
+    float breadth;
+    cout<<"enter breadth"<<endl;
+    cin>>breadth;
+    float thickness;
+    cout<<"enter thikness"<<endl;
+    cin>>thickness;
+    float volume;
+    
+    volume=length*breadth*thickness;
+    cout<<"required volume is"<<"  "<<volume<<endl;
+}
